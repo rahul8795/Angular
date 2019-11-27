@@ -1,0 +1,59 @@
+Angular
+--------
+--> Client side framework to create web applications.
+--> "Angular" is a framework, which provides the following functionality in the browser.
+    a) Able to manage UI in the browser
+    b) Able to store some temporary values in the browser.
+    c) Able to manage updates on the page.
+    d) Able to send request to server and get response from the server
+
+-What is framework?
+    Framework works on the top of a language, which provides a built-in project model.
+    Ex.      Angular        : JavaScript
+             React          : JavaScript
+             Spring         : JAVA
+             ASP.NET MVC    : C#.Net
+             Django         : Python
+             etc.
+ 
+    Framework acts as a mediator between "language" and developer.
+     Developer  --> Angular  --> JavaScript
+
+Framework Provide:
+-------------------
+@Component
+class classname
+{
+    username;
+    password;
+    
+    onLoginClick()
+    {
+       if(username==".." && password=="...")
+       {
+       }
+       else
+       {
+       }
+    }
+}
+
+
+Language Provide:
+-----------------
+class classname
+{
+   property;
+    
+   method()
+   {
+   }
+}
+
+
+Goals of Angular Framework:
+-----------------------------
+--> Separation of DOM manipulation from application logic.
+
+How web application works?
+-----------------------------
