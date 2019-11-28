@@ -57,3 +57,343 @@ Goals of Angular Framework:
 
 How web application works?
 -----------------------------
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ANGULAR 8 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                              -----------
+
+
+==> Angular 8 with Free Typescript Demo :- 
+--> What is Angular?
+--> Where we use Angular?
+--> What is TypeScript?
+--> What is Framework?
+--> Why Angular?
+
+
+=> What is Angular?
+---------------------
+--> Client-side TypeScript Framework for  developing dynamic web-apps
+Web -> Internet
+App -> Application
+(Webistes) Ex. www.gmail.com, www.fb.com, www.yahoo.com
+
+Dynamic Apps:
+---------------
+(Data/Info in website changes w.r.t 3-parameter)
+a) Time (News-Update)
+b) Location (Weather-Report)
+c) User (Gmail/Facebook)
+
+Note:
+AngularJS and Angular?
+----------------------
+--> AngularJS is JavaScript Framework
+--> Angular is TypeScript Framework
+
+--> AngularJS is not 1st version of Angular
+--> Angular is separate Framework and not realted to AngularJS
+
+--> JAVA (OOP)
+--> .Net (OOP)
+(OOP used to developing computer apps)
+
+--> Latest version of Angular is 8 (may 28th, 2019)
+
+For Developing any website, we use 3-tier Arch (Model):
+--------------------------------------------------------
+Client <-----------> Server <--------> Database
+
+
+= Client (browser)
+(Display a webpage)
+= For developing a webpage in website, we use HTML/CSS/Javascript and other
+  scripting libraries
+
+Note:
+HTML (display the data)
+CSS  (stylish of data)
+Javascript (Programming)
+
+
+TypeScript (Superset of Javascript)
+(better programming when compared to javascript)
+
+=> Typescript :
+= Typescript is superset of Javascript
+= Developed by Microsoft
+= It is strictly typed-language and supports
+data-types/classes/interface/inheritance/modules/Lamda-functins
+etc
+= Advantage, "more programming capability" in HTML-webpage
+
+NOTE:
+Every browser (Google Chrome, Mozilla Firefox, Opera, Safari)
+Browsers supports only HTML/CSS/Javascript
+Typescript in Browser?
+Transpilation (convert typescript into javascript)
+
+***Less Coding with More functionality in Web-Pages***
+
+=> Angular is a typescript framework?
+
+= Framework means (Runtume-Library + Runtime Environment)
+Library (Pre-defined Modules/Classes/Functions)
+Environment (execute our live-coding as per development)
+
+=> Angualr is an "application-plateform"
+(multiple-technologies(UI) can be used for developing  dynamics
+web-apps)
+
+= It is developed by Google+supports MS Typescript
+
+= Completely and Newly developed by same team of AJS(AngularJS)
+= Main use to develop SPA(Single Page Application)
+(Ex: www.gmail.com)
+
+=> Pre-requisites for Angular?
+= HTML
+= CSS
+= Javascript/Typescript
+
+
+==> AJS v/s Angular
+= Performance 5-times better
+= Cross plateform (PC/Laptop/Mobiles/Tabs etc)
+= Easy to implement
+= More features of Typescript comapared to Javascript
+(OOP like features)
+
+
+==> Building block of Angular:
+= Component (Everything is webpage is a component)
+= Modules (Grouping  of related coding)
+= Templates (views by HTML/CSS)
+= Decorators (Extra information to Angular framework)
+= Services (Reusable coding in Angular)
+
+==> Advantage of Angualr than AJS?
+= It is not upgrade from AJS
+= Completely re-witten in Typescript for dynamic web-apps development
+= Component based development (future of web-app dev)
+= More language choice,
+   Ex: Typescript
+       Dart
+       Purescript
+       Elm
+       etc
+= Angular itself is written in typescript
+
+= Angular product is from (Google + Microsoft)
+
+
+=> What is typescript?
+= Free open-source developed by microsoft
+= Super script of Javascript
+= Transpilation compiles/converts Typescript into Javascript
+(Browser understand Javascript only)
+= Strongly typed language (data-types)
+
+
+=====> Typescript :-
+= Typescript allows us write Javascript as per our requirements
+(Programming in a webpage)
+(HTML+CSS does not have programming capability)
+
+= Typescript is a typed-superset of Javascript
+
+= Typescript provides Object-Oriented concepts like
+classes,interfaces etc.
+(like Java, .Net Programming Language)
+
+
+== (OOP concept - Abstraction, Encapsulation, Inheritance, Polymorphism)
+
+
+Note:
+Every typescript is converted to javascript
+(.ts  -----> .js)
+Why this conversrion?
+(Till today Browser understands only Javascripts)
+
+=> Transpilation:-
+It is the process of converitng typescript into javascript
+
+Note:
+Before Angualr is executed for user in browser, in server-only .ts is 
+converted to .js
+
+==>> Other Scripting 
+= Dart
+= Elm
+= PureScript
+= CoffeeScript
+= ClojureScript
+= Scala.js
+= Reason (by FaceBook)
+= Haxe
+= Nim
+
+Note:
+= Angular Framework in written in TypeScript
+= TypeScript allows us to write both client and server-side scripts
+= Advantage is, Building web-applications Quick and fast
+
+=> Prerequisites for TypeScript:::
+= Javascript
+= OOP concepts of PL
+
+===>>> Introduction and History of Typescript:-
+= Javascript is a client-side scripting  language for programming in HTML
+webpage
+= Node.js is server side scripting language
+= In Enterprise-Applicaiton, Javascript is complex and difficult to  maintain
+= Typescript is best alternative for this with features like OO, Type-checking etx.
+
+=> Definition:::
+Typescript is javascript for developing Web-Application, it is OO,
+compiled language and typed language
+
+=> History::::
+= It was invented by  Anders Hejlsberg, at Microsoft (1996)
+= It is superset of Javascript
+= Typescript is (Javascript + Additional Features)
+
+==> Features of Typescript::::
+1) Typescript is Javascript (converted)
+2) Support for javascript libraries
+3) Javascript to Typescript (.js to .ts)
+4) Portable (Browser, OS, Devices)
+5) OO Scripting Language (OOP Features)
+6) Classese and Modules
+7) Typed Scripting Language (Datatypes)
+8) Generic and Type-Annotaions
+
+
+==> Advantage of Typescript::::(Why Typescript?)
+1) Compiled Scripting LAng. (Compiler, Erros) - (Transpiler)
+2) Typed Scripting Lang. (Datatypes)
+3) Support Other Javascript Librearies
+4) Supports OOP like classes, inheriteance, Interfaces, etc.
+
+===> How to Setup Environment for Typescript:::
+1) In Windows OS::::
+= Typescript is open-source technology (free-of-cost)
+= It can run on any Browser, any OS, any devices and also on any
+server-machine (Java/.Net/Python/PHP servers)
+
+===> Software/Tools Requirements are,
+ A) Text Editor (Notepad, Edit-plus, Notepad++, Emacs, Vi or Vim)
+    // File Extenstions are ".ts"
+
+ B) Typescript-Compiler
+     // Converts ".ts" file into ".js" file
+     (process is known as Transpilation)
+     // It is also known as "Transcomipler/Transpiler" (.ts or .d.ts files) 
+ 
+ C) Node.js (Cross plateform Server-Side RunTIme Environment for JS)
+ 
+   // Runs Javascript wothout browser
+      (https://node.js.org/en/download/)
+   // Install and verify it by opening Commond-Prompt and type the
+      following commond (node -v)  & check the version 
+   //*** Now install Typescript in CMD by using the follwing the commond
+     (npm install -g typescript)
+   //*** Verify it by typing the following commond (tsc (or) tsc -v)
+
+
+=================
+= How to work with typescript programs?
+= How to install node js & npm
+= How to install typescript
+= How to work with notepad++ & Visual Studio Code IDE
+= Basic commonds in typescript
+
+
+=> How to install node JS?
+= Node JS provide RT environment for angular 8
+= RT Environment means we can execute Angular program on Node JS
+= Node JS is used to run javascript of typescript program (without any browser)
+
+=> How to install Node JS?
+= Goto (www.nodejs.org) and download latest version of Node JS for windows 64 bit OS
+= Install the nodejd
+= After installation verify it in command prompt
+cmd> node -v
+
+= Along with nodejs, npm is also installed
+(NPM -> Node package Manager)
+
+= NPM allows us to download & install open-source javascript libraries in
+our system (integrated with nodejs)
+
+= How to verify npm?
+cmd> npm -v
+
+= Finally, typescript in our system(it is integrated with nodejs only)
+
+cmd>npm install -g typescript
+(-g indicates global installation i.e, typescript is available to all
+users of the system)
+
+= verify typescript?
+cmd>tsc -v
+
+=> Editors for typescript programming:-
+1) Notepad++
+2) Visual Studio Code IDE (Angular-also)
+
+
+=> Working with first program
+1) Open VS Code, take new page
+2) Type your typescript program
+3) Save the program with .ts as extension 
+Ex. 
+   Welcome.ts
+4) Open terminal in VS Code (from View Menu)
+
+5) Goto working directory
+(D:/AngualrOnlineSession\Typescripe\Program)
+
+6) Compile .ts file
+cmd> tsc Welcome.ts
+(on succesful compilaiton, .js file is created)
+
+7) Run .js file
+cmd> node Welcome.js
+
+8) Verify output of your program
+(without any browser)
+
+
+===========================
+= Flow of Execution of Typescript program
+= .ts file & .js file
+= Basic & Fundamental of typescript
+= Steps for writing & execution typescript program
+= Indentifiers & 6-Rules
+= Keywords in typescript
+= Comments intypescript
+= OOP in typescript
+
+
+===> Flow of Execution of Typescript program
+= Diagram
+
+.ts file :-
+= It is extension for typescript file
+
+.js File:-
+= It is extension for javascript file
+
+Note:
+Compiling (Transliling) is done by "Transpiler"
+(a small piece of software)
+(.ts ----> .js file)
+
+
+.js file is Run by NodeJS to give output
+(without any browser)
+
+Node JS provides Runtime Environment for executing typescript program
