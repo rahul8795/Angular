@@ -498,3 +498,138 @@ Advantage,
 
   3) Methods
      (Behavior of object i.e, funtionality/usage of end-product)
+     
+     
+     
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+==> Introduction to Angular:::::
+= Angular is a Typescript Framework for developing dynamic web-applications
+
+Note:
+Web-applications (Websites)
+Ex:
+  www.fb.com
+
+= Dynamic here means data in websites changes wrt to 3-things
+a) Time (News-Update) Ex. Google-News
+b) Location (Weather-Report) Ex: Google-Weather 
+c) User  (Email/Socail-Networking) Ex: Gmail, facebook
+
+= To develop web-apps in Angular we require Typescript
+(Scripting or programming in HTML webpages)
+
+= HTML ( how to display data using <tags>)
+= CSS (it makes HTML-data more stylish i.e colors,styles etc)
+= Javascript/Typescript (used as programming in webpages)
+
+
+= Framework (Runtime-Library + Runtime-Environment)
+(Lib means Modules in Typescript)
+
+= It uses HTML, CSS, Javascript and Typescript
+= Angular is written in Typescript
+= Typescript compiles to javascript and displays dynami information/data in browser
+
+= Some Notable-Features in Angular are,
+  a) HTTP Service
+  b) Animaitons
+  c) Materials etc
+  d) Auto-complete
+  e) Navigations
+  f) Toolbars
+  g) Menus
+  h) Routings (SPA)
+  i) Components
+  j) Services
+
+==> Pre_Requisites::
+  a) HTML
+  b) CSS
+  c) Javascript
+  d) Typescript
+  e) DOM
+
+
+==> History of Angular::::
+= AngularJS in known as Angualr-1
+  (Written in Javascript)-2009 (2012 by Google)
+  (AJS is Javascript framework for developing web-apps)
+
+Note:
+(java v/s .net)
+= Both of them has OOP
+= Difference is programming syntaxes
+
+= Angular-2 (Written in Typescript) - Sep 14, 2016
+= Angular-3 (skipped)
+= Angular-4 (March 23, 2017)
+= Angular-5 (November 1, 2017)
+= Angular-6 (May 4, 2018)
+= Angular-7 (October 18, 2018)
+= Angualr-8 (May 28,2019)
+
+Note::
+== All version are backward compatible and expected a new=version every 6 months
+== In new-versions some old features would be deprecated(outdated) and added with new library
+
+=> Angular(TS) is based on components and Services architecure.
+wehereas Angular JS is based on MVC architecture.
+
+=> Enhancements Angular-4/5/6/7/8::
+= "if" is supported in angular-2 where as angular-4 onwards supports "if-else" also
+= "as" keyword in for-loop from angular-4 onwards
+= Animation package is separate
+(@angular.animations beofr @angular/core)
+= Condition based Animation disable feature
+= use <ng-template> insted of <tamplate>
+  (it is already available in HTML)
+= From angular-4 onwards, we require typescript 2.2+
+= Pipe titlecase Ex: {{ 'Welcome to angualr ' | titlecase}}
+= http get api is simplified from angualr-4 onwards with HttpClient (URLSearchParams)
+= Small and Fast apps
+
+= Progressive Web apps from angular5 onwards
+= Material design enhancments from angular5
+= ngUpdate, ngAdd, RxJS-6 Enhancement from angular6
+= App performacne, Virtual Scrolling from angular7
+= Typescript 3.1, RxJS6.3, node10 support angular7
+= Finally angular8, fast rebuild time, template type-checings, backward compatibility
+
+=> Why Angular when compared to AJS?
+1) 5 times faster
+2) Modular Programming
+3) Applicaiton Platform
+4) Scripting language options
+5) Unit Testable
+
+
+==> Environment & Project setup for angular:-
+=> Software Requiremnts
+   = NodeJS (Latest)
+   = npm (latest)
+   = angualr cli 
+   = ide for writing code
+
+= Why IDE?
+(Creating angular projects, compiling or building, running, verifying output)
+
+Note:
+= Teminal is nothing but comond prompt (VS code)
+
+=> What NPM?
+(Node Package Manager)
+= It allows us to install open-source javascript librarires/packages into our angular
+applicaiton using node development environment
+
+=> What is angular cli?
+(Commond Line Interface)
+= Using commond we can create our project application files and folder in our system for 
+development)
+
+Note:
+(Software Requirements for Angular)
+1) VS Code
+2) NodeJS
+3) NPM (auto installed)
+4) Angular CLI
