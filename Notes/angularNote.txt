@@ -633,3 +633,19 @@ Note:
 2) NodeJS
 3) NPM (auto installed)
 4) Angular CLI
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+=> Creating First applicaton in angular
+cmd>ng new first-app (FirstAPP)
+= ng new is  the commond
+= Creates a new Angular app
+= It create complete folder strucutre for our angular-app
+= Angular-app folder structure is created in our working directory 
+
+cmd> cd first-app(FirstAPP)
+cmd\first-app(FirstApp)>ng serve
