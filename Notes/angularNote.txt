@@ -397,3 +397,104 @@ Compiling (Transliling) is done by "Transpiler"
 (without any browser)
 
 Node JS provides Runtime Environment for executing typescript program
+
+
+==> Basic & Fundamental of typescript:-
+= In typescript, we have below entities(items/units),
+   = Comments
+   = Statements & Expressions
+   = Variables
+   = Modules
+
+//Program
+(Display Welcome Msg)
+
+
+==> Steps for Writing, Compiling and executing typescript programs :::-
+Step1 : Open VS code IDE and type your program and save the program with
+        .ts as extenstsion
+Step2 : Open the commond prompt or terminal
+
+Step3 : Use the forllowing commond for compiling
+        [tsc Demo1.ts]
+        //On successful compilation, we get "Demo1.js" file
+
+Step4 : To run, use the following commond
+        [node Demo1.js]
+
+Note::: (Compiling multiple-files at a time)
+       [ tsc demo1.ts, demo2.ts, demo3.ts]
+      (tsc - typescript-compiler commond (Transpiler))
+
+==> Identifiers in typescript :-
+= Identifying something uniquely in a typescript program are known as 
+  identifiers. They are as follows,
+    - variables
+    - funtions
+    - classes
+    - construtors
+    - modules etc.
+
+==> 6-Rules are as follows,
+    i) Begins only with alphbets
+   ii) No special characters except _ or $
+  iii) No keywords as idnetifiers
+   iv) Should be unique
+    v) They are case-sensitive
+   vi) No Spaces in between and use digits at the last
+
+==> Typescripr Keywords ::::::
+= Keywords are special words or reserved words with special
+  meaning and usage in a program. They are as follows,
+
+break		as		any		switch
+case 		if		throw		else
+var		number		string		get		
+module		type		instanceof	typeof
+public		private		enum		export
+finally		for		while		void	
+null		super		this		false
+in		return		true		catch
+package 	extends		static		let
+new 		implements	interface	functions
+continue	try		yield		const
+do
+
+Note:
+1) Whitespaces and line-breaks are ignored while compilation
+2) Case-sensitive language
+3) Semicolans are opetional (use for multiple-stmts in single line)
+
+
+==> console.log("....";
+console means output-streams or commond-prompt or shell
+log (display or put on console)
+
+==> Comments in Typescript::::-
+= Provide description of a program.
+= They are ignored by compiler
+  a) Single-line comment (//........)
+  b) Multi-line comment (/*.........*/)
+
+Advantage,
+= Easy understanding of program
+
+
+==> Object Orientd programming in Typescript:-
+= Typescript is OOP
+= OOP is based on Reel-Life situations
+= Program with collection of objects and its methods
+= Typescript supports the following,
+  1) Objects
+   (EndProduct used by end-user, it has state-behavior-identity)
+  Ex: Mobile-Phone
+      state -> Features
+      behavior -> Usage (Calling/SMS/Internet)
+      identity -> apple iPhone-X  
+
+  2) Classes 
+     (Model/Prototype/Blueprint before creating an actual object)
+     Ex: House-Construction (Blueprint)
+
+  3) Methods
+     (Behavior of object i.e, funtionality/usage of end-product)
