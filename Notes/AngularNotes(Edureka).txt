@@ -1,0 +1,171 @@
+----------------- Angular 8 ----------------------
+
+Agenda
+--------
+- What is Angular?
+- What's new in Angular 8?
+- Project Setup
+- Writing out first applicataion
+- What is typescript
+- Integrating external CSS
+- How an angular app gets loaded?
+- Creating a custom component
+- Data binding
+- Event Binding
+- Using In-Built Directive
+
+
+1) What is Angular?
+------------------
+
+Front End Development Framework:
+---------------------------------
+Front-End development is all about the parts of a webiste that users see. Also refered to
+as "CSS framework" these are packages containing pre-written, standardized code in files 
+and folders. They give you a base to build on while still allowing flexibility with the 
+final design. 
+
+Maintained and Developed by Google:
+-----------------------------------
+Angular JS is a Javascript-based open-source front-end web framework mainly maintained by 
+Google and by a community of individuals and conrporations to address many of the challenges
+encountered in developing single-page applications.It aims to simplify both the development 
+and the testing of such applications by providing a framework for client-side model-view-
+controller(MVC) and model-view-viewmdoel(MVVC) architectures.
+
+Javascript Based:
+------------------
+Javascript is the language of the web. If you know Javascript. You can talk to your browser
+like it is your best friend. Angular is based on Javascript and Typescript (which is a 
+superset of Javascript).
+
+Single Page Application:
+-------------------------
+A single-page application is an app that works inside a browser and does not require page 
+reloading use. You are using this typw of applicaitons every day. These are, for instance:
+Gmail,Google Maps, Facebook or GitHub.
+
+
+2) Angular 8: What's New:
+--------------------------
+
+IVY Engine:
+-----------
+Angular Ivy is a next-generation compilation and rendering pipeline, which reduces the 
+bundle size, loads faster in slower networks and is simple to use. Ivy is still in an 
+experimental phase and is expected to be available in Angular version 8.0.
+
+BEZEL Engine:
+-------------
+Google open sourced the software responsible for building most of our projects under the 
+name Bazel. Bazel is a powerful tool which can keep track of the dependecies between 
+different packages and build targets. The coolest features of Bazel is that it has a smart
+algorithm for determining the build dependecies.
+
+Differential Loading:
+---------------------
+Differential loading is process by which the browser choose between modern or lagacy
+Javascript based on its own capabilities. We now take advantage of this by default by
+performing a modern bulid (es2015) and a lagacy build (es5) of your applicaiton. When
+users load your applicatation, they'll automatically get the bundle they need.
+
+
+3) Project Setup:
+------------------
+Download nodeJs and npm in our system
+
+NodeJs - It is open-source, cross plateform and Javascript runtime environment that execute
+javascript code outside the browser.
+
+4) Writing Our FIrst App:
+--------------------------
+
+
+5) What is Typescript?
+-----------------------
+Typescript is a strongly typed, object oriented, compiled language. It was designed by Anders
+Hejlsberg at Microsoft. Typescript is a superset of Javascript.
+
+
+6) Integrating External CSS:
+-----------------------------
+install bootstrap using bellow commond:
+>>> npm i --save bootstrap@3
+after that to "node_modules" where u will find 'bootstrap.css" file copy file path
+then come to "angular.json" file and search 'style' where u put the path
+
+after go to terminal and press  'ctrl+c'  and re-run the program using bellow commond:
+>>> npm -o server
+
+7) How an angular app gets loaded?
+------------------------------------
+
+8) Components:
+---------------
+Generating sub component using bellow comonds:
+
+>>> ng generate component SubServer
+
+9) Data Binding:
+------------------
+
+10) Event Binding:
+-------------------
+
+11) Directives:
+----------------
+
+12) Using Built In Directives:
+---------------------------------
+ngIf
+ngFor
+ngStyle
+ngClass
+
+               *********
+***************THANK YOU************
+
+
+********************************************************************
+
+Developing A Recipe Book:
+--------------------------
+
+Agenda:
+-------
+- Planning the application
+- Setting up the applications
+- Creating the components
+- Using the components
+- Adding a navigation bar
+- Creating a recipe model
+- Adding content to the different components
+- Outputing a list of recepie
+- Displaying recipe detail
+- Work on shopping list component
+- Creating an integration model
+- Creating and outputting the shopping list
+- Adding Shopping List edit section
+
+
+
+1) Planning the application:
+------------------------------
+
+
+
+
+- Setting up the applications
+- Creating the components
+- Using the components
+- Adding a navigation bar
+- Creating a recipe model
+- Adding content to the different components
+- Outputing a list of recepie
+- Displaying recipe detail
+- Work on shopping list component
+- Creating an integration model
+- Creating and outputting the shopping list
+- Adding Shopping List edit section
+
+
