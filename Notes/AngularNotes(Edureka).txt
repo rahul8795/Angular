@@ -169,3 +169,84 @@ Agenda:
 - Adding Shopping List edit section
 
 
+
+
+*******************************************************************
+
+
+Angular 8 Interview Questions:
+-------------------------------
+
+1) What is Angular:
+--------------------
+Front End Development Framework:
+---------------------------------
+Front-End development is all about the parts of a webiste that users see. Also refered to
+as "CSS framework" these are packages containing pre-written, standardized code in files 
+and folders. They give you a base to build on while still allowing flexibility with the 
+final design. 
+
+Maintained and Developed by Google:
+-----------------------------------
+Angular JS is a Javascript-based open-source front-end web framework mainly maintained by 
+Google and by a community of individuals and conrporations to address many of the challenges
+encountered in developing single-page applications.It aims to simplify both the development 
+and the testing of such applications by providing a framework for client-side model-view-
+controller(MVC) and model-view-viewmdoel(MVVC) architectures.
+
+Javascript Based:
+------------------
+Javascript is the language of the web. If you know Javascript. You can talk to your browser
+like it is your best friend. Angular is based on Javascript and Typescript (which is a 
+superset of Javascript).
+
+Single Page Application:
+-------------------------
+A single-page application is an app that works inside a browser and does not require page 
+reloading use. You are using this typw of applicaitons every day. These are, for instance:
+Gmail,Google Maps, Facebook or GitHub.
+
+
+2) Differentiate between AngularJS and Angular:
+-----------------------------------------------
+. AJS- Supports MVC Design Model : A- Uses Complonents and directives
+. AJS- Javascript : A- Typescript
+. AJS- Specific Ng directive is required for the image/property of an event
+  A- Uses () to bind an event and [] for property binding
+. AJS-Doesn't provide any mobile support
+  A- Provide mobile support
+. AJS- $routeprovider.when() is used for rouitng configs
+  A- @RouteConfig is used for routing config
+. AJS- Doesn't support the concept of dependency injection
+  A- Support hierarchical dependencyinjection with unidirectional tree
+. AJS- Less Manageable : A Simplified struture
+. AJS- Two way data binding reduces effort and time 
+  A- Faster than Angular JS
+. AJS- deprecated
+  A-Active support and frequent new updatess
+. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*************************************************************
+
+Typescript:
+-------------
+- TypeScript - what and why?
+- Language Features
+- Core Concepts
+- Building an application
+
