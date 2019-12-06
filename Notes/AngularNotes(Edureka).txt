@@ -507,7 +507,109 @@ do to do it in angular?
 
 33) Differentiate between DOM and BOM:
 ---------------------------------------
+    DOM                                            |    BOM
+------------------------------------------------------------------------------------------------------------------
+. Document Object Model 			   | Browser Object Model
+. Represents Content of a Webpage 		   | Works a level above webpage to include browser attributes
+. All the objects are arranged in a tree structure | All global Javascript Objects, variables and functions become
+. Manipulates HTML Docs                            | -member of the window object
+. W3C recommended standard specification	   | Access and manipulate browser window
+-------------------------------------------------------------------------------------------------------------------
+34) What are template Expressions:
+----------------------------------
+A template expression produces a value similar to any Javascript
+expression.Angular executes the expression and assigns it to a 
+property of a binding target; the target might be an HTML element
+, a component, or a directive. In the property binding , a template
+expression appears in quotes to the right of the = symbol as in 
+[propery]="expression". In interpolation syntax, the template 
+expression is surrounded by double curly braces.
 
+Ex:
+<h3> {{username}},Welocome to Ang</h3>
+
+35) What are template statements?:
+-----------------------------------
+A template statement responds to an event raised by a binding target
+such as an element, component,or directive. The template statements
+apper in quotes to the right of the = symbol like(event)="statement"
+.Let's take an example of button click event's statement.
+
+Ex:
+---
+<button (click)="editProfile()">Edit Profile</button>
+
+36) What are pipes?
+--------------------
+
+37) What is parameterized pipe?
+--------------------------------
+
+38) What is differnce between pure and impure pipe?
+----------------------------------------------------
+A pure pipe is only called when angular detects a change in the 
+value or the parametrs passed to a pipe. For example, any changes
+to a primitive input value(String,Number,Boolean,Symbol) or a
+changed object reference(Date,Array,Function,Object)
+
+An impure pipe is called for every change detection cycle no matter 
+whether the value or parameters changes.i.e, An impure pipe is called
+often, as often as every keystroke or mouse-move.
+
+39)What is RxJS?
+----------------
+RxJS is a library for composing asynchronous and callback-based
+code in a functional, reactive style using observables. Many APIs
+such as HttpClient produce and consume RxJS observables and also
+uses opearators for processing observables.
+
+import { Observable, throwError } from 'rxjs';
+import { catchErrot, retry } from 'rxjs/operators';
+
+40) What are events in angular?
+--------------------------------
+- ng-click
+- ng-copy
+- ng-cut
+- ng-dblclick
+- ng-keydown
+- ng-keypress
+- ng-mousemove
+- ng-mouseup
+
+41) What is differences between promise and observable?
+-------------------------------------------------------
+As soon as a promise is made, the execution takes place. However
+, this is not the case with observables they are lazy. This means
+that nothing happens until a subscription is made.
+
+While proises handle a single event, observable is a stream that 
+allows passing of more than one event. A call-back is made for
+each event in an obsevable.
+
+42) What are the utility functions provided by RxJS?
+-----------------------------------------------------
+- Converting existing code for async operation into observables
+- Iterating through the values in a stream
+- Mapping values to different types
+- Filtering streams
+- Composing multiple streams
+
+43) Explain how custom elements works internally.
+---------------------------------------------------
+- App registers cusotm element with browser; Use the createCustomElement()
+function to convert a component into a class that can be registered with the 
+browser as a custom element.
+
+- App adds custom element to DOM; add custom element just like a
+built-in HTML element directly into the DOM.
+
+- Browser instantiate component based class; Browser creates an 
+instance of the registerd class and adds it to the DOM.
+
+- Instance providers content with data binding and change detection;
+The content with in template is rendered using the component and DOM
+data. 
 
 *************************************************************
 
