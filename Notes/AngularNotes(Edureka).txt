@@ -234,6 +234,7 @@ Gmail,Google Maps, Facebook or GitHub.
 
 
 
+
 3) Explain the various feature of Angular:
 -------------------------------------------
 - Accessiblity Applicatons
@@ -313,18 +314,199 @@ others might be restricted to only some resources. The level
 of access is authorization.
 
 
+10)Explain Scope Hirarchy in Angular:
+--------------------------------------
 
 
+11) How to generate a class using the CLI?
+--------------------------------------------
+>> ng generate class dummy
+
+12)  What are templates in Angular:
+-----------------------------------
+Templates in Angular are written with HTML that contains Angular
+specific elements and attributes. These templates are combined
+with information coming from the model and controller which are 
+further rendered to provide the dynamic view to the user.
+
+13) What is the difference between an Annotation and a Decorator
+in Angular?
+------------------------------------------------------------------
+Annotation:
+-----------
+Annotaions in angular are "only" metadata set of the class using 
+the reflect metadata library. Ther are used to create an "annotation"
+array.
+
+Decorator:
+----------
+On the other hand, decorators are the design patterns that are used
+for separating decoration or modification of a class without 
+actually altering the original source code.
+
+14) What is a directive in Angular?:
+-------------------------------------
+- Component Directives
+- Structural Directives
+- Attribute Directives
 
 
+15) Explain the differents types of directives:
+-----------------------------------------------
+- Component Directives
+- Structural Directives
+- Attribute Directives
+
+16) What is data binding and its different types?:
+---------------------------------------------------
+Data Binding:
+--------------
+- String Interpolation
+- Property Binding
+- Event Binding
+- Two Way data binding
+
+17) What are the differences between Angular and jQuery:
+---------------------------------------------------------
+    jQuery                        |       Angular
+--------------------------------------------------------------
+. Supports DOM Manipulation 	  | Supports DOM Manipulation		
+. No Restful API		  | Supports Restful API
+. Has Animaiton Support		  | Has Animaiton Support
+. No deep linking Routing 	  | Supports deep linking Routing
+. No form validation		  | Supports form validation
+. No Two way data binding	  | Supports Two way data binding
+. Support AJAX			  | Support AJAX
+--------------------------------------------------------------------
+
+18) What are the building blocks of angular?
+---------------------------------------------
+Thers are 9 building blocks of angular:
+- Components
+- Data Binding
+- Dependency Injection
+- Directives
+- Metadata
+- Modules
+- Routing
+- Services
+- Template
+
+19) Explain the differences between Angular Expression vs Javascript Expression:
+--------------------------------------------------------------------------------
+   Angular Exp                                          | Javascript Exp
+-------------------------------------------------------------------------------------------------------------
+. They can contain literals operators and variables	| They can contain literals operators and variables	
+. They can be witten inside the HTML tags		| They can not be witten inside the HTML tags
+. They do not support conditionals, loops and exceptions| They do support conditionals, loops and exceptions
+--------------------------------------------------------------------------------------------------------------
+
+20) What is the difference between a service() and a factory()?
+----------------------------------------------------------------
+Service:
+Used for the business layer of the application, the service() function
+operates as a constructor function. The function is invoked at runtime
+using the new keyword.
+
+Factory:
+Although the factory() function works in pretty much the same way
+as the service() function does, the former is more flexible and 
+powerful.In actual, the factory() function are design that help 
+in creating objects.
+
+21) What is AOT?
+-----------------
+AOT stands for Ahead-of-Time compiler. It is used for pre-compiling
+the application components and along with their templates during 
+the build process. Angular applications which are compiled with AOT
+has a smaller launching time. Also, components of these applications
+can execute immediately, without needing any client-side compiler.
+
+22) What is Angular Material?
+------------------------------
+It is UI component library. Angular material helps in creating 
+attractive, consistent, and fully functional web pages as well
+as web applications. It does so while following modern web design
+principles, including browser portability and graceful degradation.
+
+23) Explain the digest cycle in Angular.
+----------------------------------------
+
+24) Explain the various types of filters in Angular.
+----------------------------------------------------
+- Currency
+- Date
+- Filter
+- JSON
+- limit
+- Lowercase
+- number
+- orderby
+- Template 
+- Uppercase
+
+25) What is ngOnInit()? How to define it?
+-------------------------------------------
+
+26) What is SPA (Single Page Application) in Angular?
+    Contrast SPA technology with traditional web technology?
+--------------------------------------------------------------
+Features and Benifits of Quick Test Pro:
+In the SPA technology, only a single page, which in index.HTML,
+is maintained although the URL keeps on changing. Unlike the
+traditional web tachnology. SPA technology is faster and easy
+to develop as well.
+
+In the conventional web technology, as soon as a client requests 
+a webpage, the server sends the resource. However, when again the 
+client requests for another page, the server responds again with 
+sending the requested resource. The problem with this technology
+is that it requires a lot of time.
+
+27) What are the Angular Modules?
+-----------------------------------
 
 
+28) On which types of the component can we create a custom directive?
+----------------------------------------------------------------------
+Angular Filters:
+- Element
+- Attribute
+- CSS
+- Comment
 
+29) What are the angular animations:
+-------------------------------------
+Angular's animation system is built on CSS funtionality in order to 
+animate any property that the browser considers animatable. These
+properties includes positions, sizes, transforms, colors, borders etc.
 
+30) Differentiate between one-way binding and two-way data binding?
+-----------------------------------------------------------------------
+In one-way data binding, the View or the UI part does not update
+automatically whenever the data model changes. You need to manually
+write custom in order to update it every time the view changes.
 
+Two-way data binding, the View or the UI part is updated implicitly
+as soon as the data model changes. It is a synchronization process
+, unlike one-way data binding.
 
+31) What are the lifecycle hooks for components and directives?
+----------------------------------------------------------------
+- Constructor
+- ngOnChanges
+- ngOnInit
+- ngOnDestroy
 
+32) What is the View Encapsulation and how many ways are there
+do to do it in angular?
+---------------------------------------------------------------
+- Emulated
+- Native
+- None
 
+33) Differentiate between DOM and BOM:
+---------------------------------------
 
 
 *************************************************************
