@@ -224,7 +224,93 @@ Gmail,Google Maps, Facebook or GitHub.
   A- Faster than Angular JS
 . AJS- deprecated
   A-Active support and frequent new updatess
-. 
+  
+  how to upload file on git:
+>>> git init
+>>> git add --all
+>>> git commit -m "----"
+>>> git remote add origin "github project url"
+>>> git push -u origin master
+
+
+
+3) Explain the various feature of Angular:
+-------------------------------------------
+- Accessiblity Applicatons
+- Angular CLI
+- Animation Support
+- Cross Platform App Development
+- Code Generation
+- Code Spliting
+- Synergy with Code Editor
+- Tmplate
+- Testing
+
+4) Explain Services in Angular:
+--------------------------------
+Methods --- Organize --- Controller/Directive
+
+5) Discuss the advantage of using Angular:
+-------------------------------------------
+- Custom Directives
+- Community Support
+- Client and Server Communication
+- Animation and Event Handlers
+- MVC pattern
+- Static and Angular Template
+- Two Way Data Binding
+- Dependency Injection
+
+6) Discuss the disadvantages of Angular:
+----------------------------------------
+- Complex SPA
+- Dynamic applicatoin
+- Learning Curve
+
+7) What's new in Angular 8?
+---------------------------
+IVY Engine:
+-----------
+Angular Ivy is a next-generation compilation and rendering pipeline, which reduces the 
+bundle size, loads faster in slower networks and is simple to use. Ivy is still in an 
+experimental phase and is expected to be available in Angular version 8.0.
+
+BEZEL Engine:
+-------------
+Google open sourced the software responsible for building most of our projects under the 
+name Bazel. Bazel is a powerful tool which can keep track of the dependecies between 
+different packages and build targets. The coolest features of Bazel is that it has a smart
+algorithm for determining the build dependecies.
+
+Differential Loading:
+---------------------
+Differential loading is process by which the browser choose between modern or lagacy
+Javascript based on its own capabilities. We now take advantage of this by default by
+performing a modern bulid (es2015) and a lagacy build (es5) of your applicaiton. When
+users load your applicatation, they'll automatically get the bundle they need. 
+
+8) What is String Interpolation?
+---------------------------------
+
+
+
+9) Explain Authentication and Authorization:
+--------------------------------------------
+Authentication:
+----------------
+The User login credentials are passed to an authentication API,
+which is present on the server. Post server-side validation of 
+the credentials, a JWT(JSON Web Token) is returned.The JWT has
+information or attributes regarding the current user. The user 
+is then identified with the given JWT. This is called 
+authentication.
+
+Authorization:
+--------------
+Post logging-in successfully, different users have a different 
+lavel of access. While some may access everything, access for 
+others might be restricted to only some resources. The level
+of access is authorization.
 
 
 
